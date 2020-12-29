@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../style/contactos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+
+            <div class="marca">
+                
+
+                <img src="../img/iconos/logo.png" alt="">
+                    
+                   
+                    <p>Comic Food</p>
+                    
+                
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="carta.html">CARTA</a></li>
+                    <li><a href="delivery.html">DELIVERY</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="#" class="actual">CONTACTANOS</a></li>
+
+                </ul>
+                    
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="contenedor">
+            <form action="">
+                <p>Nombre:</p>
+                <input type="text">
+                <p>Correo:</p>
+                <input type="email">
+                <p>Mensaje:</p>
+                <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+                <br>
+                <p>Elije tu ciudad</p>
+                <select name="ciudad" id="">
+                    <option value="San Francisco">San Francisco</option>
+                    <option value="Mar del Plata">Mar del Plata</option>
+                    <option value="Cordoba">Cordoba</option>
+                </select>
+                <p>Eres mayor de edad?</p>
+                <div>
+                    <p>Si</p>
+                    <input type="radio" name="edad" value= "Si" id="">
+
+                    <p>No</p>
+                    <input type="radio" name="edad" value= "No" id="">
+                </div>
+                <p>Acepta terminos y condiciones</p>
+                <input type="checkbox" name="acepta" value="1">
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetear">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
