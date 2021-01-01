@@ -75,6 +75,7 @@ header .menu ul li a{
     font-weight:300;
     
 }
+
 header .menu ul li   .actual{
     background-color: #FF9900;
 }
@@ -86,14 +87,14 @@ header .menu ul li a:hover{
 
 .fondo{
     display: flex;
-    background-image: url("../img/fondos/opcapitan\ america.png");
+    background-image: url("../img/fondos/opcap-compressed.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
 }
 .opacidad{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: rgba(0, 0, 0, 0.253);
     
 }
 main{

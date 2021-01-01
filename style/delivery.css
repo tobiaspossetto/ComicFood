@@ -75,6 +75,7 @@ header .menu ul li a{
     font-weight:300;
     
 }
+
 header .menu ul li   .actual{
     background-color: #FF9900;
 }
@@ -82,3 +83,257 @@ header .menu ul li a:hover{
     background-color: #FF9900;
     
 }
+
+
+main{
+    display: flex;
+    
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+main .ubicacion{
+    
+    
+    width: 100%;
+    display: flex;
+    background: url("../img/fondos/opcarairon-compressed.jpg");
+    background-size: cover;
+    background-position:top;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ubicacion .titulo{
+    margin-top: 200px;
+    color: white;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ubicacion .titulo h1{
+    font-size: 60px;
+    font-weight: 300;
+}
+.ubicacion .titulo p{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.ubicacion .form{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: row;
+    margin-bottom: 100px;
+    
+}
+.ubicacion .form .opciones{
+    margin: 0;
+    background-color: #c5c5c5;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px 0px 0px 10px;
+    border: 0;
+    outline: none;
+}
+
+.ubicacion .form .input{
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 0px 10px 10px 0px;
+    outline: none;
+    border: 0;
+    margin-right: 50px;
+    
+}
+
+.ubicacion .form .boton{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #FF9900;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+}
+
+.ubicacion .form .boton:hover{
+    
+    background-color: #ff7300;
+    
+}
+
+.tutorial{
+    
+    background: url(../img/textura/textura-compressed\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+.tutorial .pregunta h3{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #FF9900;
+}
+
+.tutorial .pasos{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    margin-bottom: 30px;
+}
+
+.tutorial .pasos img{
+    width: 80px;
+}
+
+.tutorial .pasos .paso1{
+    display: flex;
+    align-items: center;
+}
+
+.tutorial .pasos  p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tutorial .pasos .paso2{
+    display: flex;
+    align-items: center;
+}
+.tutorial .pasos .paso3{
+    display: flex;
+    align-items: center;
+}
+.tutorial .pasos .paso3 img{
+    width: 95px;
+}
+.tutorial .pasos .paso3 .texto{
+    margin-bottom: 20px;
+}
+
+
+.catalogo{
+    background: url(../img/fondos/opcraneo-compressed.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.catalogo .titulo h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+
+    margin-bottom: 100px;
+}
+
+.catalogo .contenedor-combos{
+    
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.catalogo .contenedor-combos .combo{
+   width: 300px;
+   background-color: #232073;
+   margin: 20px;
+}
+
+.catalogo .contenedor-combos .combo .combo-img img{
+    width: 100%;
+}
+.catalogo .contenedor-combos .combo .combo-img .burro3{
+    width: 100%;
+    height: 168.78px;
+}
+
+.catalogo .contenedor-combos .combo .combo-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogo .contenedor-combos .combo .combo-info .nombre {
+    font-size: 30px;
+    
+}
+
+.catalogo .contenedor-combos .combo .combo-info .descripcion {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.catalogo .contenedor-combos .combo .combo-info .comprar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.catalogo .contenedor-combos .combo .combo-info .comprar .precio{
+    font-weight: 500;
+    font-size: 25px;
+}
+.catalogo .contenedor-combos .combo .combo-info .comprar a{
+    width: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    background-color:#FF9900 ;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.catalogo .contenedor-combos .combo .combo-info .comprar a:hover {
+    background-color: #ff7300;
+}
+
+footer {
+    
+    width: 100%;
+    height: 50px;
+    background-color: #101136;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    
+    margin: 0px;
+}
+
+
+
+
